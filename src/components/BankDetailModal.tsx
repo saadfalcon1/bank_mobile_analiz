@@ -91,7 +91,7 @@ export const BankDetailModal = ({ bank, open, onClose }: BankDetailModalProps) =
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
               <StatCard icon={Users} label="Jami baholagan foydalanuvchilar" value={gp.totalRaters} />
               <StatCard icon={Users} label="Oylik baholovchilar" value={gp.lastMonthRaters} />
-              <StatCard icon={Star} label="Google Playdagi baho" value={gp.averageRating} />
+              <StatCard icon={Star} label="Google Play'dagi baho" value={gp.averageRating} />
               <StatCard icon={MessageSquare} label="Oylik izohlar" value={gp.lastMonthComments} />
               <StatCard icon={Download} label="Oylik yuklab olishlar" value={gp.lastMonthDownloads} />
             </div>
@@ -128,7 +128,7 @@ export const BankDetailModal = ({ bank, open, onClose }: BankDetailModalProps) =
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
               <StatCard icon={Users} label="Jami baholovchilar" value={as.totalRaters} />
               <StatCard icon={Users} label="Oylik baholovchilar" value={as.lastMonthRaters} />
-              <StatCard icon={Star} label="App Storedagi baho" value={as.averageRating} />
+              <StatCard icon={Star} label="App Store'dagi baho" value={as.averageRating} />
               <StatCard icon={MessageSquare} label="Oylik izohlar" value={as.lastMonthReviews} />
               <StatCard icon={Download} label="Oylik yuklab olishlar" value={as.lastMonthDownloads} />
             </div>
