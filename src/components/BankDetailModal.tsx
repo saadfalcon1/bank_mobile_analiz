@@ -89,7 +89,7 @@ export const BankDetailModal = ({ bank, open, onClose }: BankDetailModalProps) =
               <span className="text-xs text-muted-foreground font-mono">— {gp.appId}</span>
             </h3>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-2">
-              <StatCard icon={Users} label="Jami baholovchilar" value={gp.totalRaters} />
+              <StatCard icon={Users} label="Jami baholagan foydalanuvchilar" value={gp.totalRaters} />
               <StatCard icon={Users} label="Oylik baholovchilar" value={gp.lastMonthRaters} />
               <StatCard icon={Star} label="Google Playdagi baho" value={gp.averageRating} />
               <StatCard icon={MessageSquare} label="Oylik izohlar" value={gp.lastMonthComments} />

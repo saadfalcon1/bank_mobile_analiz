@@ -94,7 +94,7 @@ export const GPvsASChart = ({ month }: { month: MonthKey }) => {
       transition={{ delay: 0.3 }}
     >
       <h3 className="text-lg font-bold text-foreground mb-4 flex items-center gap-2">
-        <GPIcon className="w-5 h-5" /> <ASIcon className="w-5 h-5" /> Platformalar kesimida qiyosiy tahlil (Top 10)
+         Platformalar kesimida qiyosiy tahlil
       </h3>
       <ResponsiveContainer width="100%" height={400}>
         <BarChart data={chartData} margin={{ bottom: 80, left: 5, right: 5, top: 10 }}>

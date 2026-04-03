@@ -32,13 +32,13 @@ export const DashboardHeader = ({ month }: { month: MonthKey }) => {
   const stats = [
     {
       icon: Building2,
-      label: "Jami banklar soni",
+      label: "Banklar soni",
       value: combined.length.toString(),
       sub: null,
     },
     {
       icon: Users,
-      label: "Jami baholovchilar",
+      label: "Jami baholagan foydalanuvchilar",
       value: totalRaters.toLocaleString(),
       sub: (
          <span className="flex items-center justify-center gap-4 flex-wrap text-base">
@@ -57,7 +57,7 @@ export const DashboardHeader = ({ month }: { month: MonthKey }) => {
       icon: Trophy,
       label: "Eng yuqori ball",
       value: topBank?.name || "—",
-      sub: topBank ? <span className="text-base font-mono">{topBank.finalScore.toFixed(1)} ball</span> : null,
+      sub: topBank ? <span className="text-base font-mono">{topBank.finalScore.toFixed(1)}</span> : null,
     },
   ];
 
