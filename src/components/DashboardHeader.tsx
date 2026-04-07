@@ -69,19 +69,22 @@ export const DashboardHeader = ({ month }: { month: MonthKey }) => {
         animate={{ opacity: 1, y: 0 }}
         className="space-y-2"
       >
-        <div className="flex items-center gap-4">
+        {/* Logo o'ng tomonda, tema tugmasi ostida */}
+        <div className="flex items-start justify-between gap-4">
+          <div className="space-y-2">
+            <h1 className="text-4xl font-bold gradient-text-primary tracking-tight">
+              Tijorat banklarining mobil ilovalari tahlili
+            </h1>
+            <p className="text-base text-muted-foreground">
+              Google Play va App Store ma'lumotlari asosida
+            </p>
+          </div>
           <img
             src={logo}
             alt="Reyting Agentligi"
-            className="h-16 w-auto object-contain flex-shrink-0"
+            className="h-16 w-auto object-contain flex-shrink-0 mt-3"
           />
-          <h1 className="text-4xl font-bold gradient-text-primary tracking-tight">
-            Tijorat banklarining mobil ilovalari tahlili
-          </h1>
         </div>
-        <p className="text-base text-muted-foreground">
-          Google Play va App Store ma'lumotlari asosida
-        </p>
       </motion.div>
 
       <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
