@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 import { Calendar } from "lucide-react";
 
 const Index = () => {
-  const [month, setMonth] = useState<MonthKey>("march");
+  const [month, setMonth] = useState<MonthKey>("april");
 
   return (
     <div className="min-h-screen bg-background p-4 md:p-8 max-w-7xl mx-auto space-y-6">
